@@ -11,7 +11,7 @@ import {
 } from "../../content_option";
 
 export const About = () => {
-  const descriptionLines = dataabout.aboutme.split('\n');
+
 
   return (
     <HelmetProvider>

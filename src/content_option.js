@@ -11,7 +11,7 @@ const introdata = {
         second: "Coder",
         third: "I develop cool websites",
     },
-    description: "Greetings! I'm Dipkul Khandelwal, a Computer Engineering student at VIT. Currently, I'm immersed in web development and the world of design, constantly learning and expanding my horizons. Open to collaborations – feel free to get in touch!. Sed at nisl euismod urna bibendum",
+    description: "Greetings! I'm Dipkul Khandelwal, a Computer Engineering student at VIT. Currently, I'm immersed in web development and the world of design, constantly learning and expanding my horizons. Open to collaborations – feel free to get in touch!.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
@@ -19,7 +19,8 @@ const dataabout = {
     title: "abit about my self",
     aboutme: "Hey there! I'm Dipkul, a student and aspiring developer currently exploring the exciting world of B Tech in Computer Science and Engineering at Vishwakarma Institute of Technology, Pune. I'm all about crafting cool software and diving into projects that keep the adrenaline pumping. Currently on the lookout for internship opportunities as a web and software developer – because, why not turn passion into a profession, right? Originally from the vibrant city of Pune, my journey started there.Feel free to roam around my digital space, and if you're into tech, coding, or just want to share a good laugh, you're in the right place. Let's connect and make the web a little more awesome! 🚀😊"
 };
-const worktimeline = [{
+const worktimeline = [
+    {
         jobtitle: "Designer of week",
         where: "YAdfi",
         date: "2020",
@@ -36,7 +37,8 @@ const worktimeline = [{
     },
 ];
 
-const skills = [{
+const skills = [
+    {
         name: "Java",
         value: 70,
     },
@@ -46,16 +48,27 @@ const skills = [{
     },
     {
         name: "React",
-        value: 75,
+        value: 80,
     },
     {
         name: "SQL",
         value: 70,
     },
+
+    {
+        name: "MongoDB",
+        value: 75,
+    },
+
+    {
+        name: "Adobe Suits",
+        value: 80,
+    },
    
 ];
 
-const timeline = [{
+const timeline = [
+    {
         title: "2023",
         description: "Design Head in TedxVITPune , Started my Web Developer Journey",         
     },
@@ -69,15 +82,19 @@ const timeline = [{
     },
     {
         title: "2020",
-        description: "Started Understanding laws of universe with physic ",
+        description: "Became interested in understanding the laws of the universe through physics! 🌌📚",
     },
     {
         title: "2019",
-        description: "Completed 10th",
+        description: "Completed 10th.🎓",
     },
     {
         title: "2018",
-        description: "President of Computer Scoiety in School , Won best Animator Award",
+        description: "President of Computer Scoiety in School , Won best Animator Award 🎉🏆",
+    },
+    {
+        title: "2012",
+        description: "I won my first prize at the Intra-School Computer Society, and it marked the start of my journey into achievements.🏆",
     },
     {
         title: "2011",
@@ -93,67 +110,32 @@ const timeline = [{
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+const dataportfolio = [
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://picsum.photos/400/?grayscale",
+        title: "Spot",
+        description: "Empower your learning journey with our student-centric doubt-solving portal. Ask questions, find answers, and explore categories tailored to your academic needs. Elevate your understanding, anytime, anywhere.",
+        tech : "React , Nodejs , Mongodb , AuthToeknization",
+        link: "https://github.com/Dipu2552003/Spot",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        title: "E-Mart",
+        description: "E-commerce Website Application using React JS, Sass for styling, and Redux Toolkit for state management. The application will consume a dummy JSON API to retrieve product data and showcase them in an intuitive and user-friendly manner.",
+        tech : "React , Nodejs , Mongodb , AuthToeknization",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://picsum.photos/400/?grayscale",
+        title: "BeatVault",
+        description: "Revolutionary web3 project empowering the music industry through decentralized platforms, NFTs, and smart contracts. Enables transparent royalty distribution, artist empowerment, and fan engagement, reshaping the future of music.",
+        tech : "Solidity , Ethereum , React",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+  
+ 
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+
 ];
 
 const contactConfig = {
