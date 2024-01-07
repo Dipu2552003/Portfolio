@@ -90,7 +90,7 @@ const timeline = [
     },
     {
         title: "2018",
-        description: "President of Computer Scoiety in School , Won best Animator Award 🎉🏆",
+        description: "President of Computer Society in School , Won best Animator Award 🎉🏆",
     },
     {
         title: "2012",
@@ -117,13 +117,15 @@ const dataportfolio = [
         description: "Empower your learning journey with our student-centric doubt-solving portal. Ask questions, find answers, and explore categories tailored to your academic needs. Elevate your understanding, anytime, anywhere.",
         tech : "React , Nodejs , Mongodb , AuthToeknization",
         link: "https://github.com/Dipu2552003/Spot",
+        visit: "",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        title: "E-Mart",
+        title: "SnapMarket",
         description: "E-commerce Website Application using React JS, Sass for styling, and Redux Toolkit for state management. The application will consume a dummy JSON API to retrieve product data and showcase them in an intuitive and user-friendly manner.",
-        tech : "React , Nodejs , Mongodb , AuthToeknization",
+        tech : "React, Bootstrap, Redux",
         link: "#",
+        visit: "https://658d39e526a4119160d233aa--snapmarket.netlify.app/",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
@@ -131,6 +133,7 @@ const dataportfolio = [
         description: "Revolutionary web3 project empowering the music industry through decentralized platforms, NFTs, and smart contracts. Enables transparent royalty distribution, artist empowerment, and fan engagement, reshaping the future of music.",
         tech : "Solidity , Ethereum , React",
         link: "#",
+        visit: "",
     },
   
  
